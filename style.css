@@ -1,0 +1,38 @@
+
+.orange { 
+width: 5.6em;
+height: 5.6em;
+
+background-color: #ffb526;
+border-radius: 50% ;
+box-shadow: inset .2em -.2em #cc8a0c;
+}
+
+.orange:before {
+ content: "";
+ position: absolute;
+ top:  4em;
+ left: 3em;
+ height: 0;
+ width: 0;
+ border: 1em solid #539e3d;
+ border-radius: 50% 0 50% 0;
+}
+
+footer {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header{
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
